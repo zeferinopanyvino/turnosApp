@@ -6,3 +6,26 @@ body {
 a {
   color: #00B7FF;
 }
+
+h2 {
+  color: lightseagreen;
+  font-size: medium;
+
+}
+
+.shift-list{
+  display: flex;
+  padding: 10 px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text {
+    font-weight:bold;
+    font-size:3rem;
+    line-height:1;
+    margin: 0 2 rem;
+}
+
+
