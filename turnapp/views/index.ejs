@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width-device-width, initial scale=1.0"/>
+
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    
 
   </head>
   <body>
     <header> 
       <section>
         <h1><%= title %></h1>
-      <p>¡Bienvenide a la vista de turnos!<%= title %></p>
+          
+        <p>¡Bienvenide a la vista de turnos!<%= title %></p>
         
-        <div class="shift-list">
+        <div class="shift-container">
           <p>los últimos 3 turnos solicitados son:</p>
-          <ul>
+          <ul class="shift-list">
             <li class="big-text">A56 - Caja 3</li>
             <li class="big-text">A57 - Caja 2</li>
             <li class="big-text">A58 - Caja 2</li>
           </ul>
         </div>
+        <button>Genera un turno nuevo</button>
+
       </section>
       
     </header>
    
+    <form action="/login" method="POST">
+      <div>
+        <label for="user">Usuario admin</label>
+        <input type="text" name="user" id="user">
+      </div>
+      <div>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass">
+      </div>
+      <div>
+        <button type="reset">Cancelar</button>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
   </body>
 
   <footer>
