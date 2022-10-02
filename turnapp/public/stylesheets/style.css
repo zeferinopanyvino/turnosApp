@@ -17,6 +17,12 @@ body {
   justify-content: center;
 }
 
+.login-body{
+  flex-wrap: wrap;
+  
+
+}
+
 a {
   color: #00B7FF;
 }

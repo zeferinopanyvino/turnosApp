@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width-device-width, initial scale=1.0"/>
+
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
+
+  </head>
+  <body>
+    <header> 
+      <section>
+        <h1><%= title %></h1>
+          
+        <p>Bienvenidx, (USUARIX)!<%= title %></p>
+        
+        <div class="shift-container">
+          <p>Consulta la cantidad de personas registradas en el día:</p>
+          <ul class="shift-list">
+            <li class="big-text">Personas registradas</li>
+            <li class="big-text">Turnos efectivos utilizados</li>
+            <li class="big-text">Turnos generados por mes</li>
+          </ul>
+        </div>
+        <button>Imprime datos</button>
+
+      </section>
+      
+    </header>
+   
+    <form action="/login" method="POST">
+      <div>
+        <label for="user">Usuario admin</label>
+        <input type="text" name="user" id="user">
+      </div>
+      <div>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass">
+      </div>
+      <div>
+        <button type="reset">Cancelar</button>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+
+  <footer>
+    <h2>
+      Visita nuestros centros y sucursales vía digital
+    </h2>
+  </footer>
+</html>
