@@ -19,8 +19,12 @@ body {
 
 .login-body{
   flex-wrap: wrap;
-  
 
+
+}
+
+.footer{
+  flex-wrap: wrap;
 }
 
 a {
