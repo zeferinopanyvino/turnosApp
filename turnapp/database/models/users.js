@@ -26,6 +26,7 @@ module.exports = function(sequelize, dataTypes){
         updated_at:{
             type: dataTypes.STRING //tal vez luego debo cambiar por fecha
         }
+        
 
     }
     //me falta archivo config
