@@ -88,6 +88,12 @@ ul {
 
 @media (min-width: 769px){
   body{
-      width: 22%;
+      width: 82%;
+  }
+}
+
+@media(min-width: 1214px){
+  body{
+    width:80%;
   }
 }
