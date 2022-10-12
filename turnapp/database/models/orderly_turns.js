@@ -34,3 +34,5 @@ module.exports = function(sequelize, dataTypes){
 
     return OrderlyTurn;
 }
+
+
